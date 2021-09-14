@@ -5,7 +5,8 @@ import {Route,Switch, Link} from 'react-router-dom';
 import {FaInstagram} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 import {GoMarkGithub } from "react-icons/go";
-
+import About from './pages/about/about';
+import resume from './assets/resume.pdf';
 
 function App() {
   return (
@@ -13,13 +14,12 @@ function App() {
       <header className="App-header">
         <Link to="/" className='homepage-link'>Cariny Perez</Link>
         <Link to="/about">About</Link>
-        <Link to="/resume">Resume</Link>
+        <Link to="/resume" onClick={() => window.open(resume)}>Resume</Link>
       </header>
       <div className='line'></div>
       <Switch>
           <Route exact path ='/' component ={HomePage}></Route>
-          <Route exact path ='/about' component ={HomePage}></Route>
-          <Route exact path ='/resume' component ={HomePage}></Route>
+          <Route exact path ='/about' component ={About}></Route>
       </Switch>
       <footer>
         <p>Want to get in touch ?</p>
