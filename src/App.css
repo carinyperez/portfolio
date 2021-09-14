@@ -14,14 +14,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+.line {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+.homepage-link {
+  font-size: 1.5em;
+  padding-bottom: 2%;
+}
+
+a:hover, h1:hover {
+  color: #3acea9;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-top: 5%;
 }
 
 .App-link {

@@ -1,0 +1,46 @@
+.homepage {
+.homepage-header {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1% 8%;
+    justify-items: flex-start;
+    font-weight: bold;
+    text-align: left;
+    h1{ 
+        color: black;
+        font-size: 3em;
+    }
+    span {
+        border-bottom: 3px solid #3acea9;
+        width: 100%;
+    }
+    h2{
+      color: gray; 
+      font-size: 1.5em;
+    }
+}
+.homepage-images {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;
+
+    div {
+        padding-bottom: 2%;
+    }
+
+    img, p {
+        width: 40vw;
+    }
+    p {
+        line-height: 2em;
+    }
+    .project4 {
+        img {
+            margin-bottom: 18%;
+        }
+    }
+
+    }
+}
