@@ -44,6 +44,29 @@ a {
   color: #61dafb;
 }
 
+
+footer {
+    background-color: #3a3e3f;
+    color: white;
+    font-size: 2em;
+    padding: 2% 0%;
+}
+
+footer a {
+  color: #3acea9;
+}
+
+.social-media {
+  display: flex; 
+  justify-content: center;
+}
+
+.social-media svg {
+  padding-right: 2%;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -52,3 +75,5 @@ a {
     transform: rotate(360deg);
   }
 }
+
+
