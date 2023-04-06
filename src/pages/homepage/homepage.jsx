@@ -1,12 +1,12 @@
-// import './homepage.styles.scss'; 
-import microLend from '../../assets/micro_lend.png'; 
-import smartSun from '../../assets/smart-sun.png'; 
-import pomo from '../../assets/pomo.gif'; 
+import './homepage.scss';
+import useAxios from '../../hooks/useAxios';
+
 
 const HomePage = () => {
+    const {data, error } = useAxios('https://api.api-ninjas.com/v1/quotes?category=happiness');
     return (
         <>
-            Homepage
+        {error && <p className='error'>{error}</p>}
         </>
     )
 }
