@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  line-height: 2rem; 
 }
 
 .App-logo {
@@ -14,20 +15,11 @@
 }
 
 .App-header {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   justify-content: space-around;
-  font-size: calc(10px + 2vmin);
   color: black;
-}
-.line {
-  border-bottom: 1px solid gray;
-  padding-bottom: 5px;
-}
-
-.homepage-link {
-  font-size: 1.5em;
-  padding-bottom: 2%;
+  align-items: center;
 }
 
 a:hover, h1:hover {
@@ -35,7 +27,7 @@ a:hover, h1:hover {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   padding-top: 5%;
 }
@@ -46,10 +38,15 @@ a {
 
 
 footer {
+    display: flex;
+    flex-direction: column;
     background-color: #3a3e3f;
     color: white;
-    font-size: 2em;
-    padding: 2% 0%;
+    padding: 1rem; 
+}
+
+footer p {
+  padding: 0.5rem; 
 }
 
 footer a {
@@ -75,5 +72,4 @@ footer a {
     transform: rotate(360deg);
   }
 }
-
 

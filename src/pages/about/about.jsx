@@ -16,11 +16,9 @@ const About = () => {
                 </article>
                 <article>
                 <h1>How I got here </h1>
-                <p>I have an Economics degree from UC Berkeley. 
-                I intended to major in Mathematics but it was too abstract for my liking.
-                After college I did sales and marketing for a small real estate brokerage and operations for a 50 person startup. 
+                <p>I have an Economics degree from UC Berkeley. After college I did sales and marketing for a real estate brokerage and operations for a 50 person startup. 
                 Before I started doing web development, I was always curious about technology and building web applications.
-                Even before I knew what an api was, I developed a real estate website using wordpress and godaddy. 
+                Even before I knew what an api was, I developed a real estate website using wordpress.
                 Now I've been building web applications using Javascript, NodeJS, ReactJS, HTML and CSS. 
                 </p>
                 </article>
