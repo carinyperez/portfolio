@@ -5,19 +5,24 @@ import {FaLinkedin} from 'react-icons/fa';
 import {GoMarkGithub } from "react-icons/go";
 import About from './pages/about/about';
 import Projects from './pages/projects/projects';
+import TicTacToe from './components/Posts/TicTacToe/ticTacToe.jsx';
+import Blog from './pages/blog/blog';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Link to="/" className='homepage-link'>Cariny Perez</Link>
-        <Link to="projects">Projects</Link>
+        <Link to="/projects">Projects</Link>
+		<Link to="/blog">Blog</Link>
         <Link to="/about">About</Link>
       </header>
       <Switch>
           <Route exact path ='/' component ={HomePage}></Route>
           <Route exact path ='/about' component ={About}></Route>
           <Route exact path='/projects' component={Projects}></Route>
+		  <Route exact path='/blog' component={Blog}></Route>
+		  <Route exact path='/blog/tic-tac-toe' component={TicTacToe}></Route>
       </Switch>
       <footer>
         <p>Want to get in touch ?</p>
