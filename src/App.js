@@ -5,7 +5,7 @@ import {FaLinkedin} from 'react-icons/fa';
 import {GoMarkGithub } from "react-icons/go";
 import About from './pages/about/about';
 import Projects from './pages/projects/projects';
-import TicTacToe from './components/Posts/TicTacToe/ticTacToe.jsx';
+import TaskManager from './components/Posts/TaskManager/taskManager';
 import Blog from './pages/blog/blog';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route exact path ='/about' component ={About}></Route>
           <Route exact path='/projects' component={Projects}></Route>
 		  <Route exact path='/blog' component={Blog}></Route>
-		  <Route exact path='/blog/tic-tac-toe' component={TicTacToe}></Route>
+		  <Route exact path='/blog/task-manager' component={TaskManager}></Route>
       </Switch>
       <footer>
         <p>Want to get in touch ?</p>
