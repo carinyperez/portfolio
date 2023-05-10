@@ -1,5 +1,8 @@
 .blog {
 	display: flex; 
-	justify-content: space-around;
+	align-items: baseline; 
 }
 
+.blog article {
+	margin-bottom: 1rem; 
+}

@@ -7,8 +7,10 @@ const Blog = () => {
 		<main >
 			<section className='blog'>
 			<article>
-				<Link to={`${pathname}/task-manager`}>Task Manager</Link>
-				<span> April 8, 2023</span>
+				<Link to={`${pathname}/task-manager`}>Task Manager <span> April 8, 2023</span></Link>
+			</article>
+			<article>
+			<Link to={`${pathname}/inventory-manager`}>Inventory Manager <span>April 15, 2023</span></Link>
 			</article>
 			</section>
 		</main>
