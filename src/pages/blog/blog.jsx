@@ -10,7 +10,10 @@ const Blog = () => {
 				<Link to={`${pathname}/task-manager`}>Task Manager <span> April 8, 2023</span></Link>
 			</article>
 			<article>
-			<Link to={`${pathname}/inventory-manager`}>Inventory Manager <span>April 15, 2023</span></Link>
+				<Link to={`${pathname}/inventory-manager`}>Inventory Manager <span>April 15, 2023</span></Link>
+			</article>
+			<article>
+				<Link to={`${pathname}/jobs-manager`}>Jobs Manager <span>May 1, 2023</span></Link>
 			</article>
 			</section>
 		</main>

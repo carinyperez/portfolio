@@ -7,7 +7,8 @@ import About from './pages/about/about';
 import Projects from './pages/projects/projects';
 import TaskManager from './components/Posts/TaskManager/taskManager';
 import Blog from './pages/blog/blog';
-import InventoryManager from './components/InventoryManager/inventoryManager';
+import InventoryManager from './components/Posts/InventoryManager/inventoryManager'
+import JobsManager from './components/Posts/JobsManager/jobsManager';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 		  <Route exact path='/blog' component={Blog}></Route>
 		  <Route exact path='/blog/task-manager' component={TaskManager}></Route>
 		  <Route exact path='/blog/inventory-manager' component={InventoryManager}></Route>
+		  <Route exact path='/blog/jobs-manager' component={JobsManager}></Route>
       </Switch>
       <footer>
         <p>Want to get in touch ?</p>
